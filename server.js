@@ -107,8 +107,8 @@ app.get('/api/health', (req, res) => {
     });
 });
 
-app.listen(port, () => {
-    console.log(`Server berjalan di http://localhost:${port}`);
+app.listen(port, '0.0.0.0',() => {
+    console.log(`Server berjalan di http://0.0.0.0:${port}`);
     console.log(`Mode: ${process.env.NODE_ENV || 'development'}`);
     console.log(`Model default: gemini-1.5-flash`);
 });
