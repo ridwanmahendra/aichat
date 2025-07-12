@@ -46,7 +46,7 @@ function renderFullHistory() {
                         <i class="fas fa-robot"></i>
                     </div>
                     <div class="bg-gray-800/80 p-4 rounded-2xl rounded-tl-none shadow-lg flex-1 message-content">
-                        <p>Halo! Saya asisten AI berbasis Gemini. Ada yang bisa saya bantu?</p>
+                        <p>Halo! Saya Dino AI berbasis Transformers dari Universitas Teknokrat Indonesia. Ada yang bisa saya bantu?</p>
                     </div>
                 </div>
             </div>
