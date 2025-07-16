@@ -34,7 +34,7 @@ app.post('/api/chat', async (req, res) => {
 
         // Gunakan model yang lebih baru
         const model = genAI.getGenerativeModel({ 
-            model: "gemini-1.5-flash", // atau "gemini-1.5-pro" untuk versi terbaru
+            model: "gemini-2.0-flash", // atau "gemini-1.5-pro" untuk versi terbaru
             generationConfig: {
                 maxOutputTokens: 2000, // Batasi respon yang terlalu panjang
                 temperature: 0.9, // Kreativitas respon
